@@ -1,0 +1,29 @@
+User-agent: *
+Allow: /
+Disallow: /*.md$
+Disallow: /CONTENT-ROADMAP.md
+Disallow: /PHASE-4A-CRO-AUDIT.md
+Disallow: /PHASE-4B-CHANGELOG.md
+Disallow: /PHASE-4C-CHANGELOG.md
+Disallow: /FINAL-SEO-IMPLEMENTATION-REPORT.md
+
+# AI & Search Engine Directives
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+Sitemap: https://swarchougule.in/sitemap.xml
